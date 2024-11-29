@@ -1,7 +1,7 @@
 # 🚀 ChallengeHub
 
 <div align="center">
-  <img src="assets/icon.jpg" alt="ChallengeHub Logo" width="128" height="128">
+  <img src="assets/github_icon.jpg" alt="ChallengeHub Logo" width="128" height="128">
   <p><em>Your Daily Coding Challenge Companion</em></p>
 </div>
 
