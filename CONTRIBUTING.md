@@ -6,7 +6,7 @@ Thank you for considering contributing to ChallengeHub! We appreciate your inter
 
 ### Reporting Issues
 
-If you encounter any bugs or have suggestions for improvements, please open an issue in the [GitHub Issues](https://github.com/yourusername/challengehub/issues) section. When reporting an issue, please provide the following information:
+If you encounter any bugs or have suggestions for improvements, please open an issue in the [GitHub Issues](https://github.com/Meetpatel006/challengehub/issues) section. When reporting an issue, please provide the following information:
 
 - A clear description of the issue
 - Steps to reproduce the issue
