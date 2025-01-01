@@ -1,7 +1,7 @@
 # 🚀 ChallengeHub
 
 <div align="center">
-  <img src="assets/github_icon.jpg" alt="ChallengeHub Logo" width="128" height="128">
+  <img src="assets/github_icon.png" alt="ChallengeHub Logo" width="128" height="128">
   <p><em>Your Daily Coding Challenge Companion</em></p>
 </div>
 
@@ -29,10 +29,41 @@ ChallengeHub is a powerful browser extension designed to enhance your coding pra
 - Detailed progress analytics
 
 ### 🎨 User Experience
-- Clean, intuitive interface
+- Clean, intuitive interface with eye-comfortable color scheme
+- Carefully selected colors to reduce eye strain:
+  - Light gray background (#f7fafc)
+  - Soft dark text (#2d3748)
+  - Gentle hover effects
+  - Reduced shadow intensity
 - Flexible difficulty customization
 - Comprehensive progress dashboard
 - Achievement system
+
+### 🎨 Color Scheme
+
+The UI has been designed with an eye-comfortable color palette:
+
+#### Base Colors
+- Background: Light gray (#f7fafc)
+- Primary Text: Soft dark blue-gray (#2d3748)
+- Secondary Text: Medium gray (#4a5568)
+- Borders: Light gray (#e2e8f0)
+
+#### Interactive Elements
+- Button Background: Very light gray (#edf2f7)
+- Button Hover: Slightly darker gray (#e2e8f0)
+- Icons: Soft dark blue-gray (#2d3748)
+
+#### Effects
+- Shadows: Reduced opacity (0.05-0.1)
+- Modal Overlay: Light opacity (0.3)
+- Smooth transitions for all interactive elements
+
+This color scheme was carefully chosen to:
+- Minimize eye strain during extended use
+- Maintain excellent readability
+- Provide clear visual hierarchy
+- Ensure sufficient contrast for accessibility
 
 ## 🛠️ Installation Guide
 
@@ -142,6 +173,20 @@ For active development with hot reload:
    - For Safari: Load `build/safari-mv3-dev` directory
 
 The development server will automatically reload changes as you modify the code.
+
+## 📄 Recent Modifications
+
+### January 2024 Updates
+
+#### UI Enhancement
+- Implemented eye-comfortable color scheme with soft grays (#f7fafc, #2d3748)
+- Reduced contrast and shadow intensities for better readability
+- Updated icons and interactive elements for visual consistency
+
+#### Platform Integration
+- Added Codeforces problems integration
+- New difficulty selection for Codeforces problems
+- Synchronized progress tracking across both platforms
 
 ## 📄 License
 

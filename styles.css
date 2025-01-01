@@ -5,8 +5,8 @@
 }
 
 body {
-  color: #ffffff;
-  background-color: #0f172a;
+  color: #2d3748;
+  background-color: #f7fafc;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
@@ -22,7 +22,8 @@ body {
   min-height: 20rem;
   transition: all 0.3s ease-in-out;
   overflow: hidden;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
 }
 
 .popup.settings {
@@ -33,15 +34,16 @@ body {
 }
 
 nav {
-  background-color: #4f46e5;
-  background-image: linear-gradient(to right, #4f46e5, #6366f1);
+  background-color: #ffffff;
+  background-image: none;
   height: 2.5em;
   display: flex;
   flex-direction: row;
   gap: 1rem;
   align-items: center;
   padding: 0.75rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 nav button {
@@ -79,10 +81,11 @@ input[type="number"]::-webkit-outer-spin-button {
   font-size: 2rem;
   text-align: center;
   padding: 1rem;
-  background-color: #4f46e5;
-  color: white;
+  background-color: #ffffff;
+  color: #2d3748;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 #unsolved-message,
@@ -90,7 +93,7 @@ input[type="number"]::-webkit-outer-spin-button {
 #hyperTorture-message {
   text-align: center;
   padding: 1rem;
-  color: #555;
+  color: #4a5568;
   font-size: 1.2rem;
 }
 
@@ -121,29 +124,30 @@ input[type="number"]::-webkit-outer-spin-button {
   line-height: 1.2;
   text-align: center;
   width: 96%;
-  color: #f8fafc;
+  color: #2d3748;
   margin: 0.5rem 0;
 }
 
 #leetcode-problem-button {
-  background-color: #4f46e5;
-  background-image: linear-gradient(to right, #4f46e5, #6366f1);
+  background-color: #edf2f7;
+  background-image: none;
   font-size: 1rem;
-  border: none;
+  border: 1px solid #e2e8f0;
   width: 50%;
   border-radius: 12px;
   padding: 0.875rem;
-  color: white;
+  color: #2d3748;
   font-weight: 600;
   transition: all 0.2s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 #leetcode-problem-button:hover {
   cursor: pointer;
   transform: translateY(-1px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
-  background-image: linear-gradient(to right, #4338ca, #4f46e5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #e2e8f0;
+  color: #1a202c;
 }
 
 #difficulty-selection {
@@ -160,10 +164,10 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 #difficulty-selection select {
-  background-color: transparent;
-  border: 1px solid gray;
+  background-color: #edf2f7;
+  border: 1px solid #e2e8f0;
   padding: 0.5em;
-  color: white;
+  color: #2d3748;
   border-radius: 0.3em;
   flex: 1;
   outline: 0;
@@ -171,11 +175,13 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 #difficulty-selection select:hover {
-  outline: 1px solid #ffffff80;
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #e2e8f0;
 }
 
 #difficulty-selection select option {
-  color: black;
+  color: #2d3748;
+  background-color: #ffffff;
 }
 
 #current-streak-message,
@@ -218,7 +224,7 @@ input[type="number"]::-webkit-outer-spin-button {
   width: 100%;
   height: 100%;
   overflow-y: auto;
-  background-color: #15151e;
+  background-color: #f7fafc;
   transition: right 0.3s ease-in-out;
 }
 
@@ -227,7 +233,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .drawer .setting-labels {
-  background-color: #15151e;
+  background-color: #f7fafc;
   font-size: 1em;
   padding: 1rem 1.5rem;
   list-style: none;
@@ -236,17 +242,17 @@ input[type="number"]::-webkit-outer-spin-button {
 .setting-label {
   display: flex;
   align-items: center;
-  background-color: rgba(30, 41, 59, 0.5);
+  background-color: #ffffff;
   padding: 0.75rem;
   border-radius: 8px;
   gap: 0.75rem;
   backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid #e2e8f0;
   transition: all 0.2s ease;
 }
 
 .setting-label:hover {
-  background-color: rgba(30, 41, 59, 0.7);
+  background-color: #edf2f7;
   transform: translateY(-1px);
 }
 
@@ -267,7 +273,7 @@ input[type="number"]::-webkit-outer-spin-button {
   gap: 0.4rem;
   font-size: 1rem;
   font-weight: bold;
-  color: #fff;
+  color: #2d3748;
   margin: 0;
   padding-bottom: 0.2em;
 }
@@ -275,7 +281,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .setting-label p.description {
   font-size: 0.9rem;
   font-weight: 400;
-  color: #cccccc;
+  color: #4a5568;
   line-height: 1.4;
 }
 
@@ -284,10 +290,10 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .setting-label .setting-dropdown {
-  color: #fff;
+  color: #2d3748;
   cursor: pointer;
-  background-color: #333;
-  border: 1px solid #555;
+  background-color: #edf2f7;
+  border: 1px solid #e2e8f0;
   border-radius: 10px;
   outline: 1px;
   padding: .2em;
@@ -296,8 +302,8 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .setting-label .setting-dropdown option {
-  background-color: #4f46e5;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #2d3748;
 }
 
 .setting-label .setting-input {
@@ -305,17 +311,17 @@ input[type="number"]::-webkit-outer-spin-button {
   max-width: 7rem;
   height: 1.5em;
   padding: 0.3em 0.6em;
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: #edf2f7;
+  color: #2d3748;
+  border: 1px solid #e2e8f0;
   border-radius: 8px;
   transition: all 0.2s ease;
 }
 
 .setting-label .setting-input:hover,
 .setting-label .setting-input:focus {
-  outline: 1px solid #4f46e5;
-  background-color: rgba(255, 255, 255, 0.15);
+  outline: 1px solid #cbd5e0;
+  background-color: #e2e8f0;
 }
 
 .setting-label .setting-input::-webkit-inner-spin-button,
@@ -333,11 +339,11 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .save-button,
 .reset-button {
-  color: #fff;
+  color: #2d3748;
   cursor: pointer;
   text-align: center;
-  background-image: linear-gradient(to right, #4f46e5, #6366f1);
-  border: none;
+  background-color: #edf2f7;
+  border: 1px solid #e2e8f0;
   border-radius: 8px;
   width: 10rem;
   font-size: 1rem;
@@ -346,14 +352,15 @@ input[type="number"]::-webkit-outer-spin-button {
   margin: 0 0.5rem;
   padding: 0;
   transition: all 0.2s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .save-button:hover,
 .reset-button:hover {
   transform: translateY(-1px);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
-  background-image: linear-gradient(to right, #4338ca, #4f46e5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #e2e8f0;
+  color: #1a202c;
 }
 
 .permissions-warning {
@@ -387,12 +394,12 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .streak-section {
-  background-color: rgba(30, 41, 59, 0.5);
+  background-color: #ffffff;
   border-radius: 12px;
   padding: 1.25rem;
   margin: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(8px);
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .current-streak {
