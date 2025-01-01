@@ -1,12 +1,12 @@
- # Contributing to ChallengeHub
+ # Contributing to CodeQuest
 
-Thank you for considering contributing to ChallengeHub! We appreciate your interest in helping us improve the project. This document outlines the guidelines for contributing to ChallengeHub.
+Thank you for considering contributing to CodeQuest! We appreciate your interest in helping us improve the project. This document outlines the guidelines for contributing to CodeQuest.
 
 ## How to Contribute
 
 ### Reporting Issues
 
-If you encounter any bugs or have suggestions for improvements, please open an issue in the [GitHub Issues](https://github.com/Meetpatel006/challengehub/issues) section. When reporting an issue, please provide the following information:
+If you encounter any bugs or have suggestions for improvements, please open an issue in the [GitHub Issues](https://github.com/Meetpatel006/CodeQuest/issues) section. When reporting an issue, please provide the following information:
 
 - A clear description of the issue
 - Steps to reproduce the issue
@@ -25,8 +25,8 @@ We love pull requests! To contribute code, please follow these steps:
 
 2. **Clone Your Fork**
    ```bash
-   git clone https://github.com/yourusername/challengehub.git
-   cd challengehub
+   git clone https://github.com/Meetpatel006/CodeQuest.git
+   cd CodeQuest
    ```
 
 3. **Create a New Branch**
@@ -69,6 +69,6 @@ If you add new features or make significant changes, please update the documenta
 
 ## Thank You!
 
-We appreciate your contributions to ChallengeHub! Your efforts help make this project better for everyone. If you have any questions, feel free to reach out through the contact information provided in the README.md.
+We appreciate your contributions to CodeQuest! Your efforts help make this project better for everyone. If you have any questions, feel free to reach out through the contact information provided in the README.md.
 
 Happy coding!
