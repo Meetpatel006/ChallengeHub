@@ -1,13 +1,13 @@
 # 🚀 CodeQuest
 
 <div align="center">
-  <img src="assets/github_icon.png" alt="ChallengeHub Logo" width="128" height="128">
+  <img src="assets/github_icon.png" alt="CodeQuest Logo" width="128" height="128">
   <p><em>Your Daily Coding Challenge Companion</em></p>
 </div>
 
 ## 📖 Overview
 
-ChallengeHub is a powerful browser extension designed to enhance your coding practice through daily LeetCode and Codeforces challenges. Drawing inspiration from The Coding Sloth Project, we've created an engaging platform that makes consistent coding practice both fun and rewarding.
+CodeQuest is a powerful browser extension designed to enhance your coding practice through daily LeetCode and Codeforces challenges. Drawing inspiration from The Coding Sloth Project, we've created an engaging platform that makes consistent coding practice both fun and rewarding.
 
 ## ✨ Key Features
 
@@ -76,8 +76,8 @@ This color scheme was carefully chosen to:
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/MeetPatel006/challengehub.git
-   cd challengehub
+   git clone https://github.com/MeetPatel006/codequest.git
+   cd codequest
    ```
 
 2. **Install Dependencies**
@@ -100,8 +100,8 @@ This color scheme was carefully chosen to:
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/MeetPatel006/challengehub.git
-   cd challengehub
+   git clone https://github.com/MeetPatel006/codequest.git
+   cd codequest
    ```
 
 2. **Install Dependencies**
@@ -180,7 +180,7 @@ For any questions or feedback, feel free to reach out through any of these chann
 
 ## 📄 Contributing
 
-We welcome contributions to enhance the functionality and user experience of ChallengeHub. Please see our [CONTRIBUTING](CONTRIBUTING.md) for guidelines on how to submit improvements and bug fixes.
+We welcome contributions to enhance the functionality and user experience of CodeQuest. Please see our [CONTRIBUTING](CONTRIBUTING.md) for guidelines on how to submit improvements and bug fixes.
 
 
 ## 📄 Acknowledgements
@@ -189,4 +189,4 @@ We welcome contributions to enhance the functionality and user experience of Cha
 
 ---
 
-Thank you for using ChallengeHub! We hope it helps you stay consistent and improve your coding skills. Happy coding!
+Thank you for using CodeQuest! We hope it helps you stay consistent and improve your coding skills. Happy coding!
