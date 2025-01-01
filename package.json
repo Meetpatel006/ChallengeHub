@@ -1,7 +1,7 @@
 {
-  "name": "challengehub",
-  "displayName": "ChallengeHub",
-  "version": "1.0.0",
+  "name": "CodeQuest",
+  "displayName": "CodeQuest",
+  "version": "2.0.0",
   "description": "An extension to challenge you with LeetCode problems and force you to solve them. Note: This is inspired by The Coding Sloth Project",
   "author": "Meet Patel",
   "scripts": {

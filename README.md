@@ -1,4 +1,4 @@
-# 🚀 ChallengeHub
+# 🚀 CodeQuest
 
 <div align="center">
   <img src="assets/github_icon.png" alt="ChallengeHub Logo" width="128" height="128">
