@@ -110,8 +110,14 @@ This color scheme was carefully chosen to:
    ```
 
 3. **Build Extension**
+   For Chrome:
    ```bash
    pnpm build
+   ```
+   
+   For Firefox:
+   ```bash
+   pnpm build-firefox
    ```
 
 4. **Browser Installation**
@@ -124,48 +130,26 @@ This color scheme was carefully chosen to:
    - **Firefox**:
      - Visit `about:debugging#/runtime/this-firefox`
      - Click "Load Temporary Add-on"
-     - Select `build/firefox-mv3-prod` directory
-
-### macOS Setup
-
-1. **Clone Repository**
-   ```bash
-   git clone https://github.com/MeetPatel006/challengehub.git
-   cd challengehub
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   pnpm install
-   ```
-
-3. **Build Extension**
-   ```bash
-   pnpm build
-   ```
-
-4. **Browser Installation**
-   - **Chrome**:
-     - Go to `chrome://extensions/`
-     - Enable "Developer mode"
-     - Click "Load unpacked"
-     - Select `build/chrome-mv3-prod` directory
-
-## 👨‍💻 Development
+     - Select `manifest.json` from `build/firefox-mv3-prod` directory
 
 ### Development Server
 
 For active development with hot reload:
 
 1. **Start Development Server**
+   For Chrome:
    ```bash
    pnpm dev
+   ```
+   
+   For Firefox:
+   ```bash
+   pnpm dev-firefox
    ```
 
 2. **Load Extension**
    - For Chrome: Load `build/chrome-mv3-dev` directory
-   - For Firefox: Load `build/firefox-mv3-dev` directory
-   - For Safari: Load `build/safari-mv3-dev` directory
+   - For Firefox: Load `manifest.json` from `build/firefox-mv3-dev` directory
 
 The development server will automatically reload changes as you modify the code.
 
