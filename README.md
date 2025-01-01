@@ -76,7 +76,7 @@ This color scheme was carefully chosen to:
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/MeetPatel006/codequest.git
+   git clone https://github.com/Meetpatel006/CodeQuest.git
    cd codequest
    ```
 
@@ -100,7 +100,7 @@ This color scheme was carefully chosen to:
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/MeetPatel006/codequest.git
+   git clone https://github.com/Meetpatel006/CodeQuest.git
    cd codequest
    ```
 
