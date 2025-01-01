@@ -150,11 +150,6 @@ This color scheme was carefully chosen to:
      - Enable "Developer mode"
      - Click "Load unpacked"
      - Select `build/chrome-mv3-prod` directory
-   
-   - **Safari**:
-     - Enable Developer Menu in Safari Preferences
-     - Run `pnpm build-safari` (requires additional setup)
-     - Load via Safari Developer menu
 
 ## 👨‍💻 Development
 
